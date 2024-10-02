@@ -1,0 +1,118 @@
+/* Container Styling */
+.home-container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  /* Header Section */
+  .home-header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+  }
+  
+  .home-header h1 {
+    margin: 0;
+  }
+  
+  .home-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .home-header nav ul li {
+    margin: 0 15px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .home-header nav ul li:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-image: url('/path/to/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+  }
+  
+  .hero-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #004080;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero-section button:hover {
+    background-color: #ccc;
+  }
+  
+  /* Popular Tours Section */
+  .popular-tours {
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  .popular-tours h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .tour-package {
+    display: inline-block;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .tour-package h4 {
+    margin: 0;
+  }
+  
+  .tour-package p {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  footer .social-links {
+    margin-top: 10px;
+  }
+  
+  footer .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer .social-links a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,86 @@
+/* MainPage.css */
+.main-page {
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    background: url('./main-page-background-image.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar h1 {
+    color: #f7b731;
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup-btn {
+    background-color: #f7b731;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+.welcome-section {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.welcome-section h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f7b731;
+}
+
+.view-page-btn {
+    background-color: #f7b731;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: #f7b731;
+    text-decoration: none;
+    font-size: 16px;
+}

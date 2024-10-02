@@ -1,0 +1,115 @@
+/* Container Styling */
+.booking-container {
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Header Section */
+  .booking-header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+  }
+  
+  .booking-header h1 {
+    margin: 0;
+  }
+  
+  .booking-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .booking-header nav ul li {
+    margin: 0 15px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .booking-header nav ul li:hover {
+    text-decoration: underline;
+  }
+  
+  /* Search Section */
+  .search-section {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .search-section input, .search-section select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-section button {
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-section button:hover {
+    background-color: #0066cc;
+  }
+  
+  /* Trip Options Section */
+  .trip-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .trip {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .trip h3 {
+    margin: 10px 0;
+  }
+  
+  .trip p {
+    margin: 5px 0;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  footer .social-links {
+    margin-top: 10px;
+  }
+  
+  footer .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer .social-links a:hover {
+    text-decoration: underline;
+  }
+  

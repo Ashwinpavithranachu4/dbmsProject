@@ -1,0 +1,108 @@
+/* Container Styling */
+.about-us-container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  /* Header Section */
+  .about-header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+  }
+  
+  .about-header h1 {
+    margin: 0;
+  }
+  
+  .about-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-header nav ul li {
+    margin: 0 15px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .about-header nav ul li:hover {
+    text-decoration: underline;
+  }
+  
+  /* About Section */
+  .about-section {
+    background-color: #f0f8ff;
+    padding: 100px 0;
+  }
+  
+  .about-section h2 {
+    font-size: 2.5rem;
+    color: #004080;
+    margin-bottom: 20px;
+  }
+  
+  .about-section button {
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .about-section button:hover {
+    background-color: #0066cc;
+  }
+  
+  /* Our Story Section */
+  .our-story, .who-we-are, .our-mission {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+  }
+  
+  .our-story h3, .who-we-are h3, .our-mission h3 {
+    font-size: 1.8rem;
+    color: #004080;
+  }
+  
+  .our-story p, .who-we-are p, .our-mission p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  footer .social-links {
+    margin-top: 10px;
+  }
+  
+  footer .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer .social-links a:hover {
+    text-decoration: underline;
+  }
+  

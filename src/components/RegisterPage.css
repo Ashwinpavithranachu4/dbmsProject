@@ -1,0 +1,60 @@
+/* RegisterPage.css */
+.register-page {
+    font-family: 'Arial', sans-serif;
+    background: url('./register-page-background-image.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.register-page h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #f7b731;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #f7b731;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #f7b731;
+    background-color: transparent;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #f7b731;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
